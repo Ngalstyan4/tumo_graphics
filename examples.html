@@ -1,0 +1,1289 @@
+<html><head><meta charset="UTF-8"><meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>body{max-width:680px;margin:auto;padding:20px;text-align:justify;line-height:140%; -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;color:#222;font-family:Palatino,Georgia,"Times New Roman",serif}</style><style>body{counter-reset: h1 h2 h3 h4 h5 h6 paragraph}.md code,pre{font-family:Menlo,Consolas,monospace;font-size:13.08692265257565px;line-height:140%}.md div.title{font-size:26px;font-weight:800;line-height:120%;text-align:center}.md div.afterTitles{height:10px}.md div.subtitle{text-align:center}.md .image{display:inline-block}.md div.imagecaption,.md div.tablecaption,.md div.listingcaption{margin:5px 5px 5px 5px;text-align: justify;font-style:italic}.md div.imagecaption{margin-bottom:0}.md img{max-width:100%;page-break-inside:avoid}.md li{text-align:left}.md pre.listing {tab-size:4;-moz-tab-size:4;-o-tab-size:4}.md div.tilde{margin:20px 0 -10px;text-align:center}.md blockquote.fancyquote{margin:25px 0 25px;text-align:left;line-height:160%}.md blockquote.fancyquote::before{content:"“";color:#DDD;font-family:Times New Roman;font-size:45px;line-height:0;margin-right:6px;vertical-align:-0.3em}.md span.fancyquote{font-size:118%;color:#777;font-style:italic}.md span.fancyquote::after{content:"”";font-style:normal;color:#DDD;font-family:Times New Roman;font-size:45px;line-height:0;margin-left:6px;vertical-align:-0.3em}.md blockquote.fancyquote .author{width:100%;margin-top:10px;display:inline-block;text-align:right}.md small{font-size:60%}.md div.title,contents,.md .tocHeader,h1,h2,h3,h4,h5,h6,.md .shortTOC,.md .mediumTOC,.nonumberh1,.nonumberh2,.nonumberh3,.nonumberh4,.nonumberh5,.nonumberh6{font-family:Verdana,Helvetica,Arial,sans-serif;margin:13.4px 0 13.4px;padding:15px 0 3px;border-top:none;clear:both}.md h1,.md h2,.md h3,.md h4,.md h5,.md h6,.md .nonumberh1,.md .nonumberh2,.md .nonumberh3,.md .nonumberh4,.md .nonumberh5,.md .nonumberh6{page-break-after:avoid;break-after:avoid}.md svg.diagram{display:block;font-family:Menlo,Consolas,monospace;font-size:13.08692265257565px;text-align:center;stroke-linecap:round;stroke-width:2px;page-break-inside:avoid;stroke:#000;fill:#000}.md svg.diagram .opendot{fill:#FFF}.md svg.diagram text{stroke:none}@media print{.md .pagebreak{page-break-after:always;visibility:hidden}}.md a{font-family:Georgia,Palatino,'Times New Roman'}.md h1,.md .tocHeader,.md .nonumberh1{border-bottom:3px solid;font-size:20px;font-weight:bold;}.md h1,.md .nonumberh1{counter-reset: h2 h3 h4 h5 h6}.md h2,.md .nonumberh2{counter-reset: h3 h4 h5 h6;border-bottom:2px solid #999;color:#555;font-weight:bold;font-size:18px;}.md h3,.md h4,.md h5,.md h6,.md .nonumberh3,.md .nonumberh4,.md .nonumberh5,.md .nonumberh6{font-family:Helvetica,Arial,sans-serif;color:#555;font-size:16px;}.md h3{counter-reset:h4 h5 h6}.md h4{counter-reset:h5 h6}.md h5{counter-reset:h6}.md div.table{margin:16px 0 16px 0}.md table{border-collapse:collapse;line-height:140%;page-break-inside:avoid}.md table.table{margin:auto}.md table.calendar{width:100%;margin:auto;font-size:11px;font-family:Helvetica,Arial,sans-serif}.md table.calendar th{font-size:16px}.md .today{background:#ECF8FA}.md .calendar .parenthesized{color:#999;font-style:italic}.md div.tablecaption{text-align:center}.md table.table th{color:#FFF;background-color:#AAA;border:1px solid #888;padding:8px 15px 8px 15px}.md table.table td{padding:5px 15px 5px 15px;border:1px solid #888}.md table.table tr:nth-child(even){background:#EEE}.md pre.tilde{border-top: 1px solid #CCC;border-bottom: 1px solid #CCC;padding: 5px 0 5px 20px;margin:0 0 0 0;background:#FCFCFC;page-break-inside:avoid}.md a.target{width:0px;height:0px;visibility:hidden;font-size:0px;display:inline-block}.md a:link, .md a:visited{color:#38A;text-decoration:none}.md a:link:hover{text-decoration:underline}.md dt{font-weight:700}.md dl>dd{margin-top:-8px; margin-bottom:8px}.md dl>table{margin:35px 0 30px}.md code{white-space:pre;page-break-inside:avoid}.md .endnote{font-size:13px;line-height:15px;padding-left:10px;text-indent:-10px}.md .bib{padding-left:80px;text-indent:-80px;text-align:left}.markdeepFooter{font-size:9px;text-align:right;padding-top:80px;color:#999}.md .mediumTOC{float:right;font-size:12px;line-height:15px;border-left:1px solid #CCC;padding-left:15px;margin:15px 0px 15px 25px}.md .mediumTOC .level1{font-weight:600}.md .longTOC .level1{font-weight:600;display:block;padding-top:12px;margin:0 0 -20px}.md .shortTOC{text-align:center;font-weight:bold;margin-top:15px;font-size:14px}.md .admonition{position:relative;margin:1em 0;padding:.4rem 1rem;border-radius:.2rem;border-left:2.5rem solid rgba(68,138,255,.4);background-color:rgba(68,138,255,.15);}.md .admonition-title{font-weight:bold;border-bottom:solid 1px rgba(68,138,255,.4);padding-bottom:4px;margin-bottom:4px;margin-left: -1rem;padding-left:1rem;margin-right:-1rem;border-color:rgba(68,138,255,.4)}.md .admonition.tip{border-left:2.5rem solid rgba(50,255,90,.4);background-color:rgba(50,255,90,.15)}.md .admonition.tip::before{content:"\24d8";font-weight:bold;font-size:150%;position:relative;top:3px;color:rgba(26,128,46,.8);left:-2.95rem;display:block;width:0;height:0}.md .admonition.tip>.admonition-title{border-color:rgba(50,255,90,.4)}.md .admonition.warn,.md .admonition.warning{border-left:2.5rem solid rgba(255,145,0,.4);background-color:rgba(255,145,0,.15)}.md .admonition.warn::before,.md .admonition.warning::before{content:"\26A0";font-weight:bold;font-size:150%;position:relative;top:2px;color:rgba(128,73,0,.8);left:-2.95rem;display:block;width:0;height:0}.md .admonition.warn>.admonition-title,.md .admonition.warning>.admonition-title{border-color:rgba(255,145,0,.4)}.md .admonition.error{border-left: 2.5rem solid rgba(255,23,68,.4);background-color:rgba(255,23,68,.15)}.md .admonition.error>.admonition-title{border-color:rgba(255,23,68,.4)}.md .admonition.error::before{content: "\2612";font-family:"Arial";font-size:200%;position:relative;color:rgba(128,12,34,.8);top:-2px;left:-3rem;display:block;width:0;height:0}.md .admonition p:last-child{margin-bottom:0}</style><style>.md h1::before {
+content:counter(h1) " ";
+counter-increment: h1;margin-right:10px}.md h2::before {
+content:counter(h1) "."counter(h2) " ";
+counter-increment: h2;margin-right:10px}.md h3::before {
+content:counter(h1) "."counter(h2) "."counter(h3) " ";
+counter-increment: h3;margin-right:10px}.md h4::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) " ";
+counter-increment: h4;margin-right:10px}.md h5::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) " ";
+counter-increment: h5;margin-right:10px}.md h6::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) " ";
+counter-increment: h6;margin-right:10px}</style><style>.hljs{display:block;overflow-x:auto;padding:0.5em;background:#fff;color:#000;-webkit-text-size-adjust:none}.hljs-comment{color:#006a00}.hljs-keyword{color:#02E}.hljs-literal,.nginx .hljs-title{color:#aa0d91}.method,.hljs-list .hljs-title,.hljs-tag .hljs-title,.setting .hljs-value,.hljs-winutils,.tex .hljs-command,.http .hljs-title,.hljs-request,.hljs-status,.hljs-name{color:#008}.hljs-envvar,.tex .hljs-special{color:#660}.hljs-string{color:#c41a16}.hljs-tag .hljs-value,.hljs-cdata,.hljs-filter .hljs-argument,.hljs-attr_selector,.apache .hljs-cbracket,.hljs-date,.hljs-regexp{color:#080}.hljs-sub .hljs-identifier,.hljs-pi,.hljs-tag,.hljs-tag .hljs-keyword,.hljs-decorator,.ini .hljs-title,.hljs-shebang,.hljs-prompt,.hljs-hexcolor,.hljs-rule .hljs-value,.hljs-symbol,.hljs-symbol .hljs-string,.hljs-number,.css .hljs-function,.hljs-function .hljs-title,.coffeescript .hljs-attribute{color:#A0C}.hljs-function .hljs-title{font-weight:bold;color:#000}.hljs-class .hljs-title,.smalltalk .hljs-class,.hljs-type,.hljs-typename,.hljs-tag .hljs-attribute,.hljs-doctype,.hljs-class .hljs-id,.hljs-built_in,.setting,.hljs-params,.clojure .hljs-attribute{color:#5c2699}.hljs-variable{color:#3f6e74}.css .hljs-tag,.hljs-rule .hljs-property,.hljs-pseudo,.hljs-subst{color:#000}.css .hljs-class,.css .hljs-id{color:#9b703f}.hljs-value .hljs-important{color:#ff7700;font-weight:bold}.hljs-rule .hljs-keyword{color:#c5af75}.hljs-annotation,.apache .hljs-sqbracket,.nginx .hljs-built_in{color:#9b859d}.hljs-preprocessor,.hljs-preprocessor *,.hljs-pragma{color:#643820}.tex .hljs-formula{background-color:#eee;font-style:italic}.diff .hljs-header,.hljs-chunk{color:#808080;font-weight:bold}.diff .hljs-change{background-color:#bccff9}.hljs-addition{background-color:#baeeba}.hljs-deletion{background-color:#ffc8bd}.hljs-comment .hljs-doctag{font-weight:bold}.method .hljs-id{color:#000}</style><style>div.title { padding-top: 40px; } div.afterTitles { height: 15px; }</style><meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="examples_files/examples.css">
+
+<script type="text/javascript" src="examples_files/MathJax.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head><body style="visibility: visible;"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"><br></div></div><div id="MathJax_Message" style="display: none;"></div><script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><span style="display:none"><span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot; /&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(3.842em, 1000em, 4.15em, -1000em); top: -3.996em; left: 0em;"><span class="mrow" id="MathJax-Span-2"></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.063em; border-left: 0px solid; width: 0px; height: 0.125em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1">\newcommand{\n}{\hat{n}}\newcommand{\w}{\hat{\omega}}\newcommand{\wi}{\w_\mathrm{i}}\newcommand{\wo}{\w_\mathrm{o}}\newcommand{\wh}{\w_\mathrm{h}}\newcommand{\Li}{L_\mathrm{i}}\newcommand{\Lo}{L_\mathrm{o}}\newcommand{\Le}{L_\mathrm{e}}\newcommand{\Lr}{L_\mathrm{r}}\newcommand{\Lt}{L_\mathrm{t}}\newcommand{\O}{\mathrm{O}}\newcommand{\degrees}{{^{\large\circ}}}\newcommand{\T}{\mathsf{T}}\newcommand{\mathset}[1]{\mathbb{#1}}\newcommand{\Real}{\mathset{R}}\newcommand{\Integer}{\mathset{Z}}\newcommand{\Boolean}{\mathset{B}}\newcommand{\Complex}{\mathset{C}}\newcommand{\un}[1]{\,\mathrm{#1}}</script>
+</span>
+<span class="md"><p><title>Examples for Assignment 1</title></p><div class="title"> Examples for Assignment 1 </div>
+
+<div class="afterTitles"></div>
+
+<p></p>
+<div class="longTOC"><div class="tocHeader">Contents</div><p>
+<a href="#fill" class="level1"><span class="tocNumber">1&nbsp; </span>Warming up</a><br>
+&nbsp;&nbsp;<a href="#fill" class="level2"><span class="tocNumber">0.1&nbsp; </span>Fill</a><br>
+&nbsp;&nbsp;<a href="#brush" class="level2"><span class="tocNumber">0.2&nbsp; </span>Brush</a><br>
+&nbsp;&nbsp;<a href="#softbrush" class="level2"><span class="tocNumber">0.3&nbsp; </span>Soft Brush</a><br>
+<a href="#toc1" class="level1"><span class="tocNumber">1&nbsp; </span>Luminance Operations</a><br>
+&nbsp;&nbsp;<a href="#toc1.1" class="level2"><span class="tocNumber">1.1&nbsp; </span>Brightness</a><br>
+&nbsp;&nbsp;<a href="#toc1.2" class="level2"><span class="tocNumber">1.2&nbsp; </span>Contrast</a><br>
+&nbsp;&nbsp;<a href="#toc1.3" class="level2"><span class="tocNumber">1.3&nbsp; </span>Gamma Correction</a><br>
+&nbsp;&nbsp;<a href="#toc1.4" class="level2"><span class="tocNumber">1.4&nbsp; </span>Vignette</a><br>
+&nbsp;&nbsp;<a href="#toc1.5" class="level2"><span class="tocNumber">1.5&nbsp; </span>Histogram Equalization</a><br>
+<a href="#toc2" class="level1"><span class="tocNumber">2&nbsp; </span>Color Operations</a><br>
+&nbsp;&nbsp;<a href="#toc2.1" class="level2"><span class="tocNumber">2.1&nbsp; </span>Saturation</a><br>
+&nbsp;&nbsp;<a href="#toc2.2" class="level2"><span class="tocNumber">2.2&nbsp; </span>White Balance</a><br>
+&nbsp;&nbsp;<a href="#toc2.3" class="level2"><span class="tocNumber">2.3&nbsp; </span>Historgram Matching</a><br>
+<a href="#toc3" class="level1"><span class="tocNumber">3&nbsp; </span>Filter Operations</a><br>
+&nbsp;&nbsp;<a href="#toc3.1" class="level2"><span class="tocNumber">3.1&nbsp; </span>Gaussian Filter</a><br>
+&nbsp;&nbsp;<a href="#toc3.2" class="level2"><span class="tocNumber">3.2&nbsp; </span>Sharpen Filter</a><br>
+&nbsp;&nbsp;<a href="#toc3.3" class="level2"><span class="tocNumber">3.3&nbsp; </span>Edge</a><br>
+&nbsp;&nbsp;<a href="#toc3.4" class="level2"><span class="tocNumber">3.4&nbsp; </span>Median Filter</a><br>
+&nbsp;&nbsp;<a href="#toc3.5" class="level2"><span class="tocNumber">3.5&nbsp; </span>Bilateral Filter</a><br>
+<a href="#toc4" class="level1"><span class="tocNumber">4&nbsp; </span>Dithering Operations</a><br>
+&nbsp;&nbsp;<a href="#toc4.1" class="level2"><span class="tocNumber">4.1&nbsp; </span>Quantization</a><br>
+&nbsp;&nbsp;<a href="#toc4.2" class="level2"><span class="tocNumber">4.2&nbsp; </span>Random Dither</a><br>
+&nbsp;&nbsp;<a href="#toc4.3" class="level2"><span class="tocNumber">4.3&nbsp; </span>Floyd-Steinberg Dither</a><br>
+&nbsp;&nbsp;<a href="#toc4.4" class="level2"><span class="tocNumber">4.4&nbsp; </span>Ordered Dither</a><br>
+<a href="#toc5" class="level1"><span class="tocNumber">5&nbsp; </span>Resampling Operations</a><br>
+&nbsp;&nbsp;<a href="#toc5.1" class="level2"><span class="tocNumber">5.1&nbsp; </span>Scale</a><br>
+&nbsp;&nbsp;<a href="#toc5.2" class="level2"><span class="tocNumber">5.2&nbsp; </span>Rotate</a><br>
+&nbsp;&nbsp;<a href="#toc5.3" class="level2"><span class="tocNumber">5.3&nbsp; </span>Swirl</a><br>
+<a href="#toc6" class="level1"><span class="tocNumber">6&nbsp; </span>Composite Operations</a><br>
+&nbsp;&nbsp;<a href="#toc6.1" class="level2"><span class="tocNumber">6.1&nbsp; </span>Composite</a><br>
+&nbsp;&nbsp;<a href="#toc6.2" class="level2"><span class="tocNumber">6.2&nbsp; </span>Morph</a><br>
+<a href="#toc7" class="level1"><span class="tocNumber">7&nbsp; </span>Miscellaneous</a><br>
+&nbsp;&nbsp;<a href="#toc7.1" class="level2"><span class="tocNumber">7.1&nbsp; </span>Palette</a><br>
+&nbsp;&nbsp;<a href="#toc7.2" class="level2"><span class="tocNumber">7.2&nbsp; </span>XDoG</a><br>
+</p></div>
+
+  
+  <p></p>
+  <a class="target" name="fill">&nbsp;</a><a class="target" name="toc0">&nbsp;</a><h1>Fill</h1>
+  <p>
+  
+  Fill the image with Princeton Orange: 
+  <a href="http://localhost:8000/batch.html?Push_Image=flower.jpg&amp;Fill=[1,0.560784313725,0,1]">URL</a>
+  
+  </p><p>
+  
+  </p><center><div class="image" style=""><a href="examples_files/princeton_orange.png" target="_blank"><img class="markdeep" src="examples_files/princeton_orange.png" width="480px"></a><div class="imagecaption">Princeton Orange</div></div></center>
+  
+  <p></p>
+  <a class="target" name="brush">&nbsp;</a><a class="target" name="toc2">&nbsp;</a><h1>Brush</h1>
+  <p>
+  
+  Paint course logo:
+  <a href="http://localhost:8000/batch.html?Push_Image=flower.jpg&amp;Fill=[1,0.560784313725,0,1]&amp;Brush=10;[0,0,0,1];x116y130x114y130x109y130x104y130x98y131x87y134x82y136x79y138x76y141x72y145x68y150x65y157x60y165x58y170x57y174x56y178x55y186x54y195x54y202x55y206x57y210x59y212x64y217x66y218x69y220x72y221x75y222x78y223x80y223x82y223x83y223x84y223x85y223x86y223x87y223x89y223x93y222x95y221x97y220x98y220x99y219x101y219x102y218x104y217x105y216x107y214x108y213x109y212x110y211x110y210x112y210x112y209x113y208x114y208x114y207x116y205x117y205x117y204x118y203x119y203x119y202x151y157x151y158x150y160x149y162x148y164x148y166x148y168x148y170x147y172x147y175x147y177x147y178x147y179x147y180x147y181x147y182x147y185x147y186x148y190x148y191x150y192x150y194x151y195x151y196x152y196x154y197x157y198x161y199x163y200x165y200x167y200x169y200x171y200x173y200x175y199x176y199x179y198x181y197x183y195x186y194x187y194x188y193x189y191x190y189x191y187x191y185x191y183x191y181x191y179x192y178x192y177x192y176x192y173x192y171x192y167x192y162x189y159x188y157x185y156x182y155x180y153x178y153x176y152x174y151x172y151x170y151x164y151x160y151x157y151x156y151x154y151x252y127x240y131x238y132x237y132x236y133x234y135x233y137x232y137x231y138x230y141x228y145x228y148x227y152x227y156x227y158x227y159x227y162x227y163x228y164x231y164x231y165x235y165x243y165x250y165x253y165x256y166x259y168x261y170x263y172x264y174x264y175x264y176x264y177x265y179x265y183x265y184x265y185x265y186x265y187x264y189x264y190x263y192x263y193x261y195x259y198x259y199x258y199x257y200x257y201x256y201x256y202x255y202x255y203x253y204x252y205x251y205x250y206x249y206x248y207x247y207x245y207x245y208x244y208x243y208x242y209x241y209x240y209x240y210x238y210x237y211x236y211x234y212x231y212x230y212x229y212x228y212x227y212x226y212x225y212x224y212x223y212x222y212x221y212x220y212x325y125x325y126x323y127x322y129x321y131x318y133x317y134x316y138x314y143x313y145x313y146x312y148x311y149x311y150x310y151x310y152x309y153x308y156x307y157x306y159x305y161x304y162x302y163x302y165x301y166x301y167x301y168x300y168x300y169x299y169x299y170x299y171x299y172x300y172x301y174x303y174x306y174x308y175x311y175x314y175x316y175x321y175x325y174x328y174x330y173x332y173x335y172x337y172x340y171x342y171x344y170x349y169x350y168x351y168x353y167x354y167x356y167x358y167x359y167x360y166x361y166x362y166x332y128x332y129x332y131x332y135x332y137x332y139x332y141x333y143x334y146x335y150x335y151x335y152x335y154x336y155x336y156x336y157x336y159x336y160x336y161x337y165x337y168x337y171x337y172x337y173x337y174x339y177x339y178x339y180x339y183x339y187x339y188x339y189x339y190x340y192x340y193x340y194x339y196x339y198x339y201x339y203x339y205x339y206x395y125x396y125x402y125x407y125x412y126x414y127x415y127x418y129x420y131x421y133x422y134x423y139x425y144x425y145x425y148x425y151x425y154x422y158x421y160x419y164x414y169x409y175x405y180x401y183x399y185x395y190x392y192x389y196x388y197x387y199x386y200x387y200x388y200x390y200x394y200x396y199x403y198x408y197x410y197x415y195x416y195x419y194x422y193x426y193x428y192x430y192x432y192x433y192x434y192x435y192x436y192x437y192x438y192x439y192x441y192x442y192x443y192x444y192x445y192x446y192x447y192x448y192x449y192x450y193x450y194x514y119x513y119x512y119x511y119x510y119x507y118x506y118x505y118x503y118x501y118x499y118x498y118x498y119x497y119x496y120x495y121x494y122x493y123x493y124x490y130x488y133x488y134x487y136x486y138x486y139x486y140x485y141x485y142x485y143x484y148x483y150x483y151x483y153x483y155x483y156x483y159x483y162x482y164x482y168x482y172x482y173x482y174x482y176x482y178x482y179x482y180x482y181x482y182x482y184x483y185x483y186x484y187x484y188x485y188x486y189x486y190x488y191x490y192x491y192x492y193x493y193x494y194x496y194x497y195x498y195x499y195x500y195x501y195x502y195x503y195x504y196x505y196x506y196x508y196x511y196x513y196x514y196x515y196x516y195x518y194x519y194x519y193x520y193x520y192x522y190x523y189x523y188x524y188x524y187x524y186x524y185x525y185x525y184x525y183x525y181x525y180x525y179x526y178x526y177x526y176x526y175x526y173x526y171x526y170x526y168x526y167x525y166x525y165x525y164x524y163x522y161x521y160x520y160x519y159x517y159x516y158x515y158x514y158x513y158x512y158x511y158x510y157x509y157x508y157x507y157x506y157x505y157x504y157x503y157x502y157x501y157x500y157x500y158x499y158x498y158x498y159x497y159x496y159x496y160">URL</a>
+  
+  </p><p>
+  
+  </p><center><div class="image" style=""><a href="examples_files/cos426.png" target="_blank"><img class="markdeep" src="examples_files/cos426.png" width="480px"></a><div class="imagecaption">Course logo</div></div></center>
+  
+  <p></p>
+  <a class="target" name="softbrush">&nbsp;</a><a class="target" name="toc3">&nbsp;</a><h1>Soft Brush</h1>
+  <p>
+  
+  Paint a circle with center opacity equals to 1.0: 
+  <a href="http://localhost:8000/batch.html?Push_Image=flower.jpg&amp;Soft_Brush=85;[1,1,1,1];1;x270y196">URL</a>
+  
+  </p><p>
+  
+  </p><center><div class="image" style=""><a href="examples_files/soft1.png" target="_blank"><img class="markdeep" src="examples_files/soft1.png" width="480px"></a><div class="imagecaption">Soft Brush Example 1</div></div></center>
+  
+  <p></p><p>
+  
+  Paint a circle with center opacity equals to 0.5: 
+  <a href="http://localhost:8000/batch.html?Push_Image=flower.jpg&amp;Soft_Brush=85;[1,1,1,1];0.5;x270y196">URL</a>
+  
+  </p><p>
+  
+  </p><center><div class="image" style=""><a href="examples_files/soft0.png" target="_blank"><img class="markdeep" src="examples_files/soft0.png" width="480px"></a><div class="imagecaption">Soft Brush Example 2</div></div></center>
+  
+  <p></p><p>
+  
+  Paint some clouds in mesa.jpg: 
+  <a href="http://localhost:8000/batch.html?Push_Image=mesa.jpg&amp;Soft_Brush=45;[1,1,1,1];0.15;x20y26x21y26x25y26x52y26x85y26x99y27x105y29x116y30x127y30x134y30x143y29x147y28x150y25x209y6x211y6x242y6x410y33x433y37x432y37x417y37x393y33x353y25x317y18x293y11x404y7x542y40x597y36x550y30x530y24x519y18x509y14x500y10x498y9x535y9x540y30x467y41x462y41x407y36x278y20x243y18x239y18x213y18x198y18x197y19x192y19x172y19x168y19x195y18x273y18x313y18x319y19x320y19x336y17x389y14x390y14x391y14x404y12x416y7x423y3x427y2x434y2x454y11x506y25x538y25x554y25x555y25x554y25x554y25x80y22x79y22x63y20x45y14x32y13x16y8x113y1x594y116">URL</a>
+  
+  </p><p>
+  
+  </p><center><div class="image" style=""><a href="examples_files/mesa_clouds.png" target="_blank"><img class="markdeep" src="examples_files/mesa_clouds.png" width="480px"></a><div class="imagecaption">mesa.jpg with clouds</div></div></center>
+  
+  <p></p><p>
+  
+  </p>
+
+  <a class="target" name="luminanceoperations">&nbsp;</a><a class="target" name="toc1">&nbsp;</a>
+
+  <h1>Luminance Operations</h1>
+<a class="target" name="brightness">&nbsp;</a><a class="target" name="toc1.1">&nbsp;</a><h2>Brightness</h2>
+<p>
+
+<code>brightnessFilter(image, ratio)</code>
+changes the brightness of an image by blending the original colors with black/white color in a ratio. (When <code>ratio &gt; 0</code>, 
+we blend with white to make it brighter; when <code>ratio &lt; 0</code>, we blend with black to make it darker).
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/brightness_-1.png" target="_blank"><img class="markdeep" src="examples_files/brightness_-1.png" border="1"></a><div class="imagecaption">-1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/brightness_-0.5.png" target="_blank"><img class="markdeep" src="examples_files/brightness_-0.png" border="1"></a><div class="imagecaption">-0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/brightness_0.png" target="_blank"><img class="markdeep" src="examples_files/brightness_0_002.png" border="1"></a><div class="imagecaption">0</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/brightness_0.5.png" target="_blank"><img class="markdeep" src="examples_files/brightness_0.png" border="1"></a><div class="imagecaption">0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/brightness_1.png" target="_blank"><img class="markdeep" src="examples_files/brightness_1.png" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="contrast">&nbsp;</a><a class="target" name="toc1.2">&nbsp;</a><h2>Contrast</h2>
+<p>
+
+<code>contrastFilter(image, ratio)</code>
+changes the contrast of an
+image by interpolating between a constant gray image (<code>ratio=-1</code>) with the
+average luminance and the original image (<code>ratio=0</code>). Interpolation reduces
+contrast, extrapolation boosts contrast, and negative factors generate inverted
+images. Use the following formula which is mentioned in <a href="http://en.wikipedia.org/wiki/Image_editing#Contrast_change_and_brightening">Wiki Contrast</a>:
+<code>value = (value - 0.5) * (tan ((contrast + 1) * PI/4) ) + 0.5;</code>
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/contrast1.png" target="_blank"><img class="markdeep" src="examples_files/contrast1.png" border="1"></a><div class="imagecaption">-1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/contrast2.png" target="_blank"><img class="markdeep" src="examples_files/contrast2.png" border="1"></a><div class="imagecaption">-0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/contrast3.png" target="_blank"><img class="markdeep" src="examples_files/contrast3.png" border="1"></a><div class="imagecaption">0</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/contrast4.png" target="_blank"><img class="markdeep" src="examples_files/contrast4.png" border="1"></a><div class="imagecaption">0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/contrast5.png" target="_blank"><img class="markdeep" src="examples_files/contrast5.png" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="gammacorrection">&nbsp;</a><a class="target" name="toc1.3">&nbsp;</a><h2>Gamma Correction</h2>
+<p>
+
+<code>gammaFilter(image, logOfGamma)</code>
+changes the image by applying gamma correction, <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msubsup&gt;&lt;mi&gt;V&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;mi&gt;&amp;#x03B3;&lt;/mi&gt;&lt;/msubsup&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-3" style="width: 5.074em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.15em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.61em, 1004.15em, 3.021em, -1000em); top: -2.561em; left: 0em;"><span class="mrow" id="MathJax-Span-4"><span class="msubsup" id="MathJax-Span-5"><span style="display: inline-block; position: relative; width: 1.602em; height: 0px;"><span style="position: absolute; clip: rect(3.189em, 1000.69em, 4.168em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-6" style="font-family: STIXGeneral; font-style: italic;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.077em;"></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; top: -3.846em; left: 0.611em;"><span class="texatom" id="MathJax-Span-7"><span class="mrow" id="MathJax-Span-8"><span class="mi" id="MathJax-Span-9" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">o</span><span class="mi" id="MathJax-Span-10" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">u</span><span class="mi" id="MathJax-Span-11" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">t<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.013em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span><span class="mo" id="MathJax-Span-12" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="msubsup" id="MathJax-Span-13" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 1.236em; height: 0px;"><span style="position: absolute; clip: rect(3.189em, 1000.69em, 4.168em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-14" style="font-family: STIXGeneral; font-style: italic;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.077em;"></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.535em, 1000.39em, 4.295em, -1000em); top: -4.486em; left: 0.761em;"><span class="mi" id="MathJax-Span-15" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">γ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.02em;"></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.38em, 1000.63em, 4.157em, -1000em); top: -3.698em; left: 0.611em;"><span class="texatom" id="MathJax-Span-16"><span class="mrow" id="MathJax-Span-17"><span class="mi" id="MathJax-Span-18" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span class="mi" id="MathJax-Span-19" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">n</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.561em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.436em; border-left: 0px solid; width: 0px; height: 1.471em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mrow class="MJX-TeXAtom-ORD"><mi>o</mi><mi>u</mi><mi>t</mi></mrow></msub><mo>=</mo><msubsup><mi>V</mi><mrow class="MJX-TeXAtom-ORD"><mi>i</mi><mi>n</mi></mrow><mi>γ</mi></msubsup></math></span></span><script type="math/tex" id="MathJax-Element-2">V_{out} = V_{in} ^ \gamma</script>, where <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;&amp;#x03B3;&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;&amp;#x2061;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;&amp;#x03B3;&lt;/mi&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-20" style="width: 4.511em; display: inline-block;"><span style="display: inline-block; position: relative; width: 3.689em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.562em, 1003.69em, 2.921em, -1000em); top: -2.561em; left: 0em;"><span class="mrow" id="MathJax-Span-21"><span class="mi" id="MathJax-Span-22" style="font-family: STIXGeneral; font-style: italic;">γ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.028em;"></span></span><span class="mo" id="MathJax-Span-23" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="msubsup" id="MathJax-Span-24" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 1.92em; height: 0px;"><span style="position: absolute; clip: rect(3.401em, 1000.41em, 4.161em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-25" style="font-family: STIXGeneral; font-style: italic;">e</span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; top: -4.359em; left: 0.444em;"><span class="texatom" id="MathJax-Span-26"><span class="mrow" id="MathJax-Span-27"><span class="mi" id="MathJax-Span-28" style="font-size: 70.7%; font-family: STIXGeneral;">log</span><span class="mo" id="MathJax-Span-29" style="font-size: 70.7%;"></span><span class="texatom" id="MathJax-Span-30" style="padding-left: 0.188em;"><span class="mrow" id="MathJax-Span-31"><span class="mi" id="MathJax-Span-32" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">γ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.02em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.561em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.314em; border-left: 0px solid; width: 0px; height: 1.408em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>γ</mi><mo>=</mo><msup><mi>e</mi><mrow class="MJX-TeXAtom-ORD"><mi>log</mi><mo>⁡</mo><mrow class="MJX-TeXAtom-ORD"><mi>γ</mi></mrow></mrow></msup></math></span></span><script type="math/tex" id="MathJax-Element-3">\gamma = e^{\log{\gamma}}</script>
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/gamma1.png" target="_blank"><img class="markdeep" src="examples_files/gamma1.png" border="1"></a><div class="imagecaption">-1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gamma2.png" target="_blank"><img class="markdeep" src="examples_files/gamma2.png" border="1"></a><div class="imagecaption">-0.4</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gamma3.png" target="_blank"><img class="markdeep" src="examples_files/gamma3.png" border="1"></a><div class="imagecaption">0</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gamma4.png" target="_blank"><img class="markdeep" src="examples_files/gamma4.png" border="1"></a><div class="imagecaption">0.4</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gamma5.png" target="_blank"><img class="markdeep" src="examples_files/gamma5.png" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="vignette">&nbsp;</a><a class="target" name="toc1.4">&nbsp;</a><h2>Vignette</h2>
+<p>
+
+<code>vignetteFilter(image, value)</code>
+darkens the corners of the image, as observed when using lenses with very wide apertures (<a href="http://en.wikipedia.org/wiki/Vignetting">ref</a>).
+The function takes the innerRadius and outerRadius as inputs.
+The image should be perfectly clear up to <code>innerRadius</code>, perfectly dark (black) at <code>outerRadius</code>
+ and beyond, and smoothly increase darkness in the circular ring in 
+between.
+Both are specified as multiples of half the length of the image diagonal
+ (so 1.0 is the distance from the image center to the corner).
+
+</p><p>
+
+Note: the vignetting ring should be a perfect circle, not an ellipse. 
+Camera lenses typically have circular apertures, even if the sensor/film
+ is rectangular.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/vignette1.png" target="_blank"><img class="markdeep" src="examples_files/vignette1.png" border="1"></a><div class="imagecaption">innerR:0.25, outerR:1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/vignette2.png" target="_blank"><img class="markdeep" src="examples_files/vignette2.png" border="1"></a><div class="imagecaption">innerR:0.5, outerR:1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/vignette3.png" target="_blank"><img class="markdeep" src="examples_files/vignette3.png" border="1"></a><div class="imagecaption">innerR:0.25, outerR:0.75</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/vignette4.png" target="_blank"><img class="markdeep" src="examples_files/vignette4.png" border="1"></a><div class="imagecaption">innerR:0, outerR:0.75</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="histogramequalization">&nbsp;</a><a class="target" name="toc1.5">&nbsp;</a><h2>Histogram Equalization</h2>
+<p>
+
+<code>histeqFilter(image)</code>
+increase the contrast of the image by <a href="http://en.wikipedia.org/wiki/Histogram_equalization">histogram equalization</a>
+ in HSL’s L channel, that is, remapping the pixel intensities so that 
+the final histogram is flat. 
+A low contrast image usually clumps most pixels into a few tight 
+clusters of intensities. Histogram equalization redistributes the pixel 
+intensities uniformly over the full range of intensities [0, 1], while 
+maintaining the relationship between light and dark areas of the image.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/histeq_before.jpg" target="_blank"><img class="markdeep" src="examples_files/histeq_before.jpg" width="480" border="1"></a><div class="imagecaption">Before</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/histeq_after.png" target="_blank"><img class="markdeep" src="examples_files/histeq_after.png" width="480" border="1"></a><div class="imagecaption">After</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="coloroperations">&nbsp;</a><a class="target" name="toc2">&nbsp;</a><h1>Color Operations</h1>
+
+<a class="target" name="saturation">&nbsp;</a><a class="target" name="toc2.1">&nbsp;</a><h2>Saturation</h2>
+<p>
+
+
+<code>saturationFilter(image, ratio)</code>
+changes the saturation of
+an image by interpolating between a gray level version of the image (<code>ratio=-1</code>)
+and the original image (<code>ratio=0</code>). Interpolation decreases saturation,
+extrapolation increases it, and negative factors preserve luminance but invert
+the hue of the input image. See <a href="http://graficaobscura.com/interp/index.html">Graphica Obscura</a>, its parameter <code>alpha=1+ratio</code> in our slider.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/saturation1.png" target="_blank"><img class="markdeep" src="examples_files/saturation1.png" border="1"></a><div class="imagecaption">-1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/saturation2.png" target="_blank"><img class="markdeep" src="examples_files/saturation2.png" border="1"></a><div class="imagecaption">-0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/saturation3.png" target="_blank"><img class="markdeep" src="examples_files/saturation3.png" border="1"></a><div class="imagecaption">0</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/saturation4.png" target="_blank"><img class="markdeep" src="examples_files/saturation4.png" border="1"></a><div class="imagecaption">0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/saturation5.png" target="_blank"><img class="markdeep" src="examples_files/saturation5.png" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="whitebalance">&nbsp;</a><a class="target" name="toc2.2">&nbsp;</a><h2>White Balance</h2>
+<p>
+
+<code>whiteBalanceFilter(image, hex)</code>
+Adjust the <a href="http://en.wikipedia.org/wiki/Color_balance">white balance</a> of the
+scene to compensate for lighting that is too warm, too cool, or tinted, to produce a neutral image.
+Use <a href="http://en.wikipedia.org/wiki/Color_balance#Von_Kries.27s_method">Von Kries method</a>:
+convert the image from RGB to the [LMS color space](<a href="http://en.wikipedia.org/wiki/LMS_color_space" class="url">http://en.wikipedia.org/wiki/LMS_color_space</a>)
+(there are several slightly different versions of this space, use any reasonable one, e.g. RLAB),
+divide by the LMS coordinates of the white point color (the estimated tint of the illumination),
+and convert back to RGB.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/white_balance_before.jpg" target="_blank"><img class="markdeep" src="examples_files/white_balance_before.jpg" width="360" border="1"></a><div class="imagecaption">Before correction: too warm</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/white_balance_after.jpg" target="_blank"><img class="markdeep" src="examples_files/white_balance_after.jpg" width="360" border="1"></a><div class="imagecaption">After correction: neutral</div></div></center>
+
+<p></p><p>
+
+</p></td></tr><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/whiteBalance_cee2f5.png" target="_blank"><img class="markdeep" src="examples_files/whiteBalance_cee2f5.png" width="360" border="1"></a><div class="imagecaption">Given white hex: #cee2f5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/whiteBalance_f5cece.png" target="_blank"><img class="markdeep" src="examples_files/whiteBalance_f5cece.png" width="360" border="1"></a><div class="imagecaption">Given white hex: #f5cece</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="historgrammatching">&nbsp;</a><a class="target" name="toc2.3">&nbsp;</a><h2>Historgram Matching</h2>
+<p>
+
+<code>histMatchFilter = function(image, refImg)</code>
+Adjusts the color/contrast of the input <code>image</code> by matching the histgram to <code>refImg</code> images in the luminance channel.
+The results in the row below use the histogram matching in the luminance channel.
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/histmatch_gt1.png" target="_blank"><img class="markdeep" src="examples_files/histmatch_gt1.png" width="360" border="1"></a><div class="imagecaption">reference image: town</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/histmatch_gf1.png" target="_blank"><img class="markdeep" src="examples_files/histmatch_gf1.png" width="360" border="1"></a><div class="imagecaption">reference image: flower</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="filteroperations">&nbsp;</a><a class="target" name="toc3">&nbsp;</a><h1>Filter Operations</h1>
+
+<a class="target" name="gaussianfilter">&nbsp;</a><a class="target" name="toc3.1">&nbsp;</a><h2>Gaussian Filter</h2>
+<p>
+
+<code>gaussianFilter(image, sigma)</code>
+Blurs an image by convolving it with a Gaussian filter. In the examples below, the Gaussian function used was
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;&amp;#x03C3;&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-33" style="width: 5.996em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.918em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(0.91em, 1004.92em, 2.892em, -1000em); top: -2.561em; left: 0em;"><span class="mrow" id="MathJax-Span-34"><span class="mi" id="MathJax-Span-35" style="font-family: STIXGeneral; font-style: italic;">G</span><span class="mo" id="MathJax-Span-36" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-37" style="font-family: STIXGeneral; font-style: italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-38" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-39" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="msubsup" id="MathJax-Span-40" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 1.783em; height: 0px;"><span style="position: absolute; clip: rect(3.401em, 1000.41em, 4.161em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-41" style="font-family: STIXGeneral; font-style: italic;">e</span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; top: -4.571em; left: 0.444em;"><span class="texatom" id="MathJax-Span-42"><span class="mrow" id="MathJax-Span-43"><span class="mfrac" id="MathJax-Span-44"><span style="display: inline-block; position: relative; width: 1.024em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.323em, 1000.9em, 4.22em, -1000em); top: -4.399em; left: 50%; margin-left: -0.452em;"><span class="mrow" id="MathJax-Span-45"><span class="mo" id="MathJax-Span-46" style="font-size: 50%; font-family: STIXGeneral;">−</span><span class="msubsup" id="MathJax-Span-47"><span style="display: inline-block; position: relative; width: 0.561em; height: 0px;"><span style="position: absolute; clip: rect(3.622em, 1000.22em, 4.155em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-48" style="font-size: 50%; font-family: STIXGeneral; font-style: italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; top: -4.177em; left: 0.274em;"><span class="mn" id="MathJax-Span-49" style="font-size: 50%; font-family: STIXGeneral;">2</span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.36em, 1000.86em, 4.155em, -1000em); top: -3.534em; left: 50%; margin-left: -0.429em;"><span class="mrow" id="MathJax-Span-50"><span class="mn" id="MathJax-Span-51" style="font-size: 50%; font-family: STIXGeneral;">2</span><span class="msubsup" id="MathJax-Span-52"><span style="display: inline-block; position: relative; width: 0.608em; height: 0px;"><span style="position: absolute; clip: rect(3.628em, 1000.27em, 4.155em, -1000em); top: -3.996em; left: 0em;"><span class="mi" id="MathJax-Span-53" style="font-size: 50%; font-family: STIXGeneral; font-style: italic;">σ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.017em;"></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; top: -4.14em; left: 0.32em;"><span class="mn" id="MathJax-Span-54" style="font-size: 50%; font-family: STIXGeneral;">2</span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(0.858em, 1001.02em, 1.23em, -1000em); top: -1.223em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.024em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.076em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.561em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.278em; border-left: 0px solid; width: 0px; height: 2.168em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msup><mi>e</mi><mrow class="MJX-TeXAtom-ORD"><mfrac><mrow><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>σ</mi><mn>2</mn></msup></mrow></mfrac></mrow></msup></math></span></span><script type="math/tex" id="MathJax-Element-4">G(x) = e^{\frac{-x^2}{2\sigma^2}}</script>
+and the number below each image indicates the sigma of the filter. You set the filter window size to <code>Math.round(3*sigma)*2+1</code>.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/gaussian1.png" target="_blank"><img class="markdeep" src="examples_files/gaussian1.png" border="1"></a><div class="imagecaption">1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gaussian2.png" target="_blank"><img class="markdeep" src="examples_files/gaussian2.png" border="1"></a><div class="imagecaption">2</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gaussian3.png" target="_blank"><img class="markdeep" src="examples_files/gaussian3.png" border="1"></a><div class="imagecaption">3</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gaussian4.png" target="_blank"><img class="markdeep" src="examples_files/gaussian4.png" border="1"></a><div class="imagecaption">4</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/gaussian5.png" target="_blank"><img class="markdeep" src="examples_files/gaussian5.png" border="1"></a><div class="imagecaption">5</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="sharpenfilter">&nbsp;</a><a class="target" name="toc3.2">&nbsp;</a><h2>Sharpen Filter</h2>
+<p>
+
+<code>sharpenFilter(image)</code>
+sharpens edges in an image by convolving it with the edge kernel as belows and add it to the original image:
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mrow&gt;&lt;mo&gt;[&lt;/mo&gt;&lt;mtable rowspacing=&quot;4pt&quot; columnspacing=&quot;1em&quot;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-55" style="width: 8.558em; display: inline-block;"><span style="display: inline-block; position: relative; width: 7.018em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.13em, 1006.97em, 5.337em, -1000em); top: -3.484em; left: 0em;"><span class="mrow" id="MathJax-Span-56"><span class="mrow" id="MathJax-Span-57"><span class="mo" id="MathJax-Span-58" style="vertical-align: 2.2em;"><span style="display: inline-block; position: relative; width: 0.45em; height: 0px;"><span style="position: absolute; font-family: STIXSizeOneSym; top: -3.314em; left: 0em;">⎡<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; font-family: STIXSizeOneSym; top: -0.414em; left: 0em;">⎣<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -2.347em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -1.381em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span><span class="mtable" id="MathJax-Span-59" style="padding-right: 0.167em; padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 5.805em; height: 0px;"><span style="position: absolute; clip: rect(2.483em, 1001.08em, 6.508em, -1000em); top: -4.713em; left: 0em;"><span style="display: inline-block; position: relative; width: 1.185em; height: 0px;"><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -5.396em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-60"><span class="mrow" id="MathJax-Span-61"><span class="mo" id="MathJax-Span-62" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-63" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -3.946em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-72"><span class="mrow" id="MathJax-Span-73"><span class="mo" id="MathJax-Span-74" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-75" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -2.496em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-83"><span class="mrow" id="MathJax-Span-84"><span class="mo" id="MathJax-Span-85" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-86" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 4.713em;"></span></span><span style="position: absolute; clip: rect(2.483em, 1001.08em, 6.508em, -1000em); top: -4.713em; left: 2.31em;"><span style="display: inline-block; position: relative; width: 1.185em; height: 0px;"><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -5.396em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-64"><span class="mrow" id="MathJax-Span-65"><span class="mo" id="MathJax-Span-66" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-67" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.45em, 4.164em, -1000em); top: -3.946em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-76"><span class="mrow" id="MathJax-Span-77"><span class="mn" id="MathJax-Span-78" style="font-family: STIXGeneral;">8</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -2.496em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-87"><span class="mrow" id="MathJax-Span-88"><span class="mo" id="MathJax-Span-89" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-90" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 4.713em;"></span></span><span style="position: absolute; clip: rect(2.483em, 1001.08em, 6.508em, -1000em); top: -4.713em; left: 4.62em;"><span style="display: inline-block; position: relative; width: 1.185em; height: 0px;"><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -5.396em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-68"><span class="mrow" id="MathJax-Span-69"><span class="mo" id="MathJax-Span-70" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-71" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -3.946em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-79"><span class="mrow" id="MathJax-Span-80"><span class="mo" id="MathJax-Span-81" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-82" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1001.08em, 4.291em, -1000em); top: -2.496em; left: 50%; margin-left: -0.593em;"><span class="mtd" id="MathJax-Span-91"><span class="mrow" id="MathJax-Span-92"><span class="mo" id="MathJax-Span-93" style="font-family: STIXGeneral;">−</span><span class="mn" id="MathJax-Span-94" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 4.713em;"></span></span></span></span><span class="mo" id="MathJax-Span-95" style="vertical-align: 2.2em;"><span style="display: inline-block; position: relative; width: 0.45em; height: 0px;"><span style="position: absolute; font-family: STIXSizeOneSym; top: -3.314em; left: 0em;">⎤<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; font-family: STIXSizeOneSym; top: -0.414em; left: 0em;">⎦<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -2.347em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -1.381em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.484em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -2.137em; border-left: 0px solid; width: 0px; height: 4.883em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mo>[</mo><mtable rowspacing="4pt" columnspacing="1em"><mtr><mtd><mo>−</mo><mn>1</mn></mtd><mtd><mo>−</mo><mn>1</mn></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd><mo>−</mo><mn>1</mn></mtd><mtd><mn>8</mn></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd><mo>−</mo><mn>1</mn></mtd><mtd><mo>−</mo><mn>1</mn></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr></mtable><mo>]</mo></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-5">\begin{bmatrix}
+    −1 & −1 & −1 \\
+    −1 & 8  & −1 \\
+    −1 & −1 & −1
+\end{bmatrix}</script>
+
+</p><p>
+
+</p><center><a href="examples_files/sharpen.png" target="_blank"><img class="markdeep" src="examples_files/sharpen.png" width="480" border="1"></a></center>
+
+<p></p>
+<a class="target" name="edge">&nbsp;</a><a class="target" name="toc3.3">&nbsp;</a><h2>Edge</h2>
+<p>
+
+<code>edgeFilter = function(image)</code>
+convolves the image with the edge kernel. We invert the image (<code>pixel = 1 - pixel</code>) in the example below for better visualization.
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><a href="examples_files/edge1.png" target="_blank"><img class="markdeep" src="examples_files/edge1.png" width="480" border="1"></a></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><a href="examples_files/edge2.png" target="_blank"><img class="markdeep" src="examples_files/edge2.png" width="480" border="1"></a></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="medianfilter">&nbsp;</a><a class="target" name="toc3.4">&nbsp;</a><h2>Median Filter</h2>
+<p>
+
+<code>medianFilter(image, winR)</code>
+blurs an image by replacing each pixel by the median of its neighboring pixel(<code>(2*winR+1) * (2*winR+1)</code>).
+ The results below are generated by doing median filter in RGB channel 
+separately. You can also sort the pixels using the luminance only.
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/median1.png" target="_blank"><img class="markdeep" src="examples_files/median1.png" border="1"></a><div class="imagecaption">1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/median2.png" target="_blank"><img class="markdeep" src="examples_files/median2.png" border="1"></a><div class="imagecaption">2</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/median3.png" target="_blank"><img class="markdeep" src="examples_files/median3.png" border="1"></a><div class="imagecaption">3</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/median4.png" target="_blank"><img class="markdeep" src="examples_files/median4.png" border="1"></a><div class="imagecaption">4</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/median5.png" target="_blank"><img class="markdeep" src="examples_files/median5.png" border="1"></a><div class="imagecaption">5</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="bilateralfilter">&nbsp;</a><a class="target" name="toc3.5">&nbsp;</a><h2>Bilateral Filter</h2>
+<p>
+
+<code>bilateralFilter(image, sigmaR, sigmaS)</code>
+blurs an image by replacing each pixel by a weighted average of nearby 
+pixels. The weights depend not only on the euclidean distance of pixels 
+but also on the pixel difference, for the pixel difference it could 
+either be luminance difference or L2 distance in color space.
+Consider the pixel I(i,j) located in (i,j), the weight of pixel I(k,l) 
+follows the following equation: 
+
+</p><p>
+
+</p><center><a href="http://upload.wikimedia.org/math/9/7/1/97120010aa3bf0e04d5827492f184eba.png" target="_blank"><img class="markdeep" src="examples_files/97120010aa3bf0e04d5827492f184eba.png"></a></center>
+
+<p></p><p>
+
+We set the filter window size to <code>2* Math.round( max(sigmaR,sigmaS)*2 ) + 1</code>.
+In the examples below, to make the weight for pixel and spatial more fair, we multiply <code>sigmaR</code> by <code>sqrt(2)*winR</code>. If we don't take this factor into consideration, the filter does not do any blurring and the result looks unchanged.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/bilateral1.png" target="_blank"><img class="markdeep" src="examples_files/bilateral1.png" border="1"></a><div class="imagecaption">sigmaR=1, sigmaS=1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/bilateral2.png" target="_blank"><img class="markdeep" src="examples_files/bilateral2.png" border="1"></a><div class="imagecaption">sigmaR=2, sigmaS=1</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/bilateral3.png" target="_blank"><img class="markdeep" src="examples_files/bilateral3.png" border="1"></a><div class="imagecaption">sigmaR=3, sigmaS=0.5</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/bilateral4.png" target="_blank"><img class="markdeep" src="examples_files/bilateral4.png" border="1"></a><div class="imagecaption">sigmaR=4, sigmaS=2</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/bilateral5.png" target="_blank"><img class="markdeep" src="examples_files/bilateral5.png" border="1"></a><div class="imagecaption">sigmaR=5, sigmaS=3</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="ditheringoperations">&nbsp;</a><a class="target" name="toc4">&nbsp;</a><h1>Dithering Operations</h1>
+
+<a class="target" name="quantization">&nbsp;</a><a class="target" name="toc4.1">&nbsp;</a><h2>Quantization</h2>
+<p>
+
+<code>quantizeFilter(image)</code> converts an image to a binary image (0 or 1).
+
+</p><p>
+
+</p><center><a href="examples_files/quantize_binary.png" target="_blank"><img class="markdeep" src="examples_files/quantize_binary.png" width="480" border="1"></a></center>
+
+<p></p>
+<a class="target" name="randomdither">&nbsp;</a><a class="target" name="toc4.2">&nbsp;</a><h2>Random Dither</h2>
+<p>
+
+<code>randomFilter(image)</code>
+converts an image to a binary image using random dithering. It is similar to uniform
+quantization, but random noise range in each unit is added to each component during quantization,
+so that the arithmetic mean of many output pixels with the same input level
+will be equal to this input level.
+
+</p><p>
+
+</p><center><a href="examples_files/random_binary.png" target="_blank"><img class="markdeep" src="examples_files/random_binary.png" width="480" border="1"></a></center>
+
+<p></p>
+<a class="target" name="floyd-steinbergdither">&nbsp;</a><a class="target" name="toc4.3">&nbsp;</a><h2>Floyd-Steinberg Dither</h2>
+<p>
+
+<code>floydFilter(image)</code>
+converts an image to a binary image using Floyd-Steinberg dither with error diffusion.
+Each pixel (<em class="underscore">x</em>,<em class="underscore">y</em>) is quantized, and the quantization error is
+computed. Then the error is diffused to the neighboring pixels (<em class="underscore">x</em> + 1,<em class="underscore">y</em>), (<em class="underscore">x</em> - 1,<em class="underscore">y</em> + 1), 
+(<em class="underscore">x</em>,<em class="underscore">y</em> + 1), and (<em class="underscore">x</em> + 1,<em class="underscore">y</em> + 1) , with weights 7/16, 3/16, 5/16, and 1/16, respectively.
+
+</p><p>
+
+</p><center><a href="examples_files/floyd_binary.png" target="_blank"><img class="markdeep" src="examples_files/floyd_binary.png" width="480" border="1"></a></center>
+
+<p></p>
+<a class="target" name="ordereddither">&nbsp;</a><a class="target" name="toc4.4">&nbsp;</a><h2>Ordered Dither</h2>
+<p>
+
+<code>orderedFilter(image)</code>
+converts an image to a binary image using ordered dithering. The following examples used the pattern:
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mrow&gt;&lt;mo&gt;[&lt;/mo&gt;&lt;mtable rowspacing=&quot;4pt&quot; columnspacing=&quot;1em&quot;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mn&gt;15&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;13&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;11&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mn&gt;12&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;14&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-96" style="width: 10.505em; display: inline-block;"><span style="display: inline-block; position: relative; width: 8.607em; height: 0px; font-size: 122%;"><span style="position: absolute; clip: rect(1.122em, 1008.56em, 6.78em, -1000em); top: -4.201em; left: 0em;"><span class="mrow" id="MathJax-Span-97"><span class="mrow" id="MathJax-Span-98"><span class="mo" id="MathJax-Span-99" style="vertical-align: 2.925em;"><span style="display: inline-block; position: relative; width: 0.45em; height: 0px;"><span style="position: absolute; font-family: STIXSizeOneSym; top: -3.314em; left: 0em;">⎡<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; font-family: STIXSizeOneSym; top: 1.036em; left: 0em;">⎣<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -2.444em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -1.574em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -0.704em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: 0.166em; left: 0em;">⎢<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span><span class="mtable" id="MathJax-Span-100" style="padding-right: 0.167em; padding-left: 0.167em;"><span style="display: inline-block; position: relative; width: 7.375em; height: 0px;"><span style="position: absolute; clip: rect(3.078em, 1000.97em, 8.438em, -1000em); top: -6.045em; left: 0em;"><span style="display: inline-block; position: relative; width: 1em; height: 0px;"><span style="position: absolute; clip: rect(3.154em, 1000.94em, 4.164em, -1000em); top: -6.121em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-101"><span class="mrow" id="MathJax-Span-102"><span class="mn" id="MathJax-Span-103" style="font-family: STIXGeneral;">15</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.43em, 4.164em, -1000em); top: -4.671em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-113"><span class="mrow" id="MathJax-Span-114"><span class="mn" id="MathJax-Span-115" style="font-family: STIXGeneral;">3</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.97em, 4.15em, -1000em); top: -3.221em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-125"><span class="mrow" id="MathJax-Span-126"><span class="mn" id="MathJax-Span-127" style="font-family: STIXGeneral;">12</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.48em, 4.164em, -1000em); top: -1.771em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-137"><span class="mrow" id="MathJax-Span-138"><span class="mn" id="MathJax-Span-139" style="font-family: STIXGeneral;">0</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 6.045em;"></span></span><span style="position: absolute; clip: rect(3.104em, 1000.89em, 8.438em, -1000em); top: -6.045em; left: 2.125em;"><span style="display: inline-block; position: relative; width: 1em; height: 0px;"><span style="position: absolute; clip: rect(3.18em, 1000.45em, 4.158em, -1000em); top: -6.121em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-104"><span class="mrow" id="MathJax-Span-105"><span class="mn" id="MathJax-Span-106" style="font-family: STIXGeneral;">7</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.89em, 4.15em, -1000em); top: -4.671em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-116"><span class="mrow" id="MathJax-Span-117"><span class="mn" id="MathJax-Span-118" style="font-family: STIXGeneral;">11</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.47em, 4.15em, -1000em); top: -3.221em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-128"><span class="mrow" id="MathJax-Span-129"><span class="mn" id="MathJax-Span-130" style="font-family: STIXGeneral;">4</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.45em, 4.164em, -1000em); top: -1.771em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-140"><span class="mrow" id="MathJax-Span-141"><span class="mn" id="MathJax-Span-142" style="font-family: STIXGeneral;">8</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 6.045em;"></span></span><span style="position: absolute; clip: rect(3.09em, 1000.97em, 8.424em, -1000em); top: -6.045em; left: 4.25em;"><span style="display: inline-block; position: relative; width: 1em; height: 0px;"><span style="position: absolute; clip: rect(3.166em, 1000.93em, 4.164em, -1000em); top: -6.121em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-107"><span class="mrow" id="MathJax-Span-108"><span class="mn" id="MathJax-Span-109" style="font-family: STIXGeneral;">13</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.39em, 4.15em, -1000em); top: -4.671em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-119"><span class="mrow" id="MathJax-Span-120"><span class="mn" id="MathJax-Span-121" style="font-family: STIXGeneral;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.97em, 4.15em, -1000em); top: -3.221em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-131"><span class="mrow" id="MathJax-Span-132"><span class="mn" id="MathJax-Span-133" style="font-family: STIXGeneral;">14</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.47em, 4.15em, -1000em); top: -1.771em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-143"><span class="mrow" id="MathJax-Span-144"><span class="mn" id="MathJax-Span-145" style="font-family: STIXGeneral;">2</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 6.045em;"></span></span><span style="position: absolute; clip: rect(3.078em, 1000.98em, 8.438em, -1000em); top: -6.045em; left: 6.375em;"><span style="display: inline-block; position: relative; width: 1em; height: 0px;"><span style="position: absolute; clip: rect(3.154em, 1000.44em, 4.164em, -1000em); top: -6.121em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-110"><span class="mrow" id="MathJax-Span-111"><span class="mn" id="MathJax-Span-112" style="font-family: STIXGeneral;">5</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.46em, 4.172em, -1000em); top: -4.671em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-122"><span class="mrow" id="MathJax-Span-123"><span class="mn" id="MathJax-Span-124" style="font-family: STIXGeneral;">9</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.158em, 1000.47em, 4.164em, -1000em); top: -3.221em; left: 50%; margin-left: -0.25em;"><span class="mtd" id="MathJax-Span-134"><span class="mrow" id="MathJax-Span-135"><span class="mn" id="MathJax-Span-136" style="font-family: STIXGeneral;">6</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; clip: rect(3.166em, 1000.98em, 4.164em, -1000em); top: -1.771em; left: 50%; margin-left: -0.5em;"><span class="mtd" id="MathJax-Span-146"><span class="mrow" id="MathJax-Span-147"><span class="mn" id="MathJax-Span-148" style="font-family: STIXGeneral;">10</span></span></span><span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span><span style="display: inline-block; width: 0px; height: 6.045em;"></span></span></span></span><span class="mo" id="MathJax-Span-149" style="vertical-align: 2.925em;"><span style="display: inline-block; position: relative; width: 0.45em; height: 0px;"><span style="position: absolute; font-family: STIXSizeOneSym; top: -3.314em; left: 0em;">⎤<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="position: absolute; font-family: STIXSizeOneSym; top: 1.036em; left: 0em;">⎦<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -2.444em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -1.574em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: -0.704em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span><span style="font-family: STIXSizeOneSym; position: absolute; top: 0.166em; left: 0em;">⎥<span style="display: inline-block; width: 0px; height: 3.996em;"></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 4.201em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -3.021em; border-left: 0px solid; width: 0px; height: 6.652em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><mo>[</mo><mtable rowspacing="4pt" columnspacing="1em"><mtr><mtd><mn>15</mn></mtd><mtd><mn>7</mn></mtd><mtd><mn>13</mn></mtd><mtd><mn>5</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>11</mn></mtd><mtd><mn>1</mn></mtd><mtd><mn>9</mn></mtd></mtr><mtr><mtd><mn>12</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>14</mn></mtd><mtd><mn>6</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>8</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>10</mn></mtd></mtr></mtable><mo>]</mo></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-6">\begin{bmatrix}
+    15 & 7  & 13 & 5 \\
+    3  & 11 & 1  & 9 \\
+    12 & 4  & 14 & 6 \\
+    0  & 8  & 2  & 10
+\end{bmatrix}</script>
+The values can be used as thresholds for rounding up or down as described in the lecture slides.
+
+</p><p>
+
+</p><center><a href="examples_files/ordered_binary.png" target="_blank"><img class="markdeep" src="examples_files/ordered_binary.png" width="480" border="1"></a></center>
+
+<p></p>
+<a class="target" name="resamplingoperations">&nbsp;</a><a class="target" name="toc5">&nbsp;</a><h1>Resampling Operations</h1>
+
+<a class="target" name="scale">&nbsp;</a><a class="target" name="toc5.1">&nbsp;</a><h2>Scale</h2>
+<p>
+
+<code>scaleFilter(image, ratio)</code>
+scales an image in width and height by ratio. The result depends on the current sampling method (point, bilinear,
+or Gaussian). In the example below, gamma=1, the window radius of the Gaussian filter is 3, ratio = 0.7.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/scale1.png" target="_blank"><img class="markdeep" src="examples_files/scale1.png" border="1"></a><div class="imagecaption">Point</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/scale2.png" target="_blank"><img class="markdeep" src="examples_files/scale2.png" border="1"></a><div class="imagecaption">Bilinear</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/scale3.png" target="_blank"><img class="markdeep" src="examples_files/scale3.png" border="1"></a><div class="imagecaption">Gaussian</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="rotate">&nbsp;</a><a class="target" name="toc5.2">&nbsp;</a><h2>Rotate</h2>
+<p>
+
+<code>rotateFilter(image, radians, sampleMode)</code>
+rotates an image by the given angle, in radians (a positive angle implies clockwise rotation). 
+The result depends on the current sampling method (point, bilinear, or Gaussian). 
+We set sigma of the gaussian filter to 1.0, and the window radius of the Gaussian filter to 3.0. \
+In the example below, radians = 0.2 * pi.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/rotate1.png" target="_blank"><img class="markdeep" src="examples_files/rotate1.png" border="1"></a><div class="imagecaption">Point</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/rotate2.png" target="_blank"><img class="markdeep" src="examples_files/rotate2.png" border="1"></a><div class="imagecaption">Bilinear</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/rotate3.png" target="_blank"><img class="markdeep" src="examples_files/rotate3.png" border="1"></a><div class="imagecaption">Gaussian</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="swirl">&nbsp;</a><a class="target" name="toc5.3">&nbsp;</a><h2>Swirl</h2>
+<p>
+
+<code>swirlFilter(image, radians, sampleMode)</code>
+warps an image using a creative filter of your
+choice. In the following example, each pixel is mapped to its corresponding
+scaled polar coordinates, here radians = 0.4 * pi.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/swirl1.png" target="_blank"><img class="markdeep" src="examples_files/swirl1.png" border="1"></a><div class="imagecaption">Point</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/swirl2.png" target="_blank"><img class="markdeep" src="examples_files/swirl2.png" border="1"></a><div class="imagecaption">Bilinear</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/swirl3.png" target="_blank"><img class="markdeep" src="examples_files/swirl3.png" border="1"></a><div class="imagecaption">Gaussian</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="compositeoperations">&nbsp;</a><a class="target" name="toc6">&nbsp;</a><h1>Composite Operations</h1>
+
+<a class="target" name="composite">&nbsp;</a><a class="target" name="toc6.1">&nbsp;</a><h2>Composite</h2>
+<p>
+
+<code>compositeFilter(backgroundImg, foregroundImg)</code> 
+composites the foreground image
+over the background image, using the alpha channel of the foreground image to blend two images.
+The alpha channel can be obtained by pushing a third image or painting a third image using “Brush”.
+Gaussian smoothing the painted alpha channel usually gives better result.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/comp_background.jpg" target="_blank"><img class="markdeep" src="examples_files/comp_background.jpg" border="1"></a><div class="imagecaption">Background Img</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/comp_foreground.jpg" target="_blank"><img class="markdeep" src="examples_files/comp_foreground.jpg" border="1"></a><div class="imagecaption">Foreground Img</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/comp_mask.jpg" target="_blank"><img class="markdeep" src="examples_files/comp_mask.jpg" border="1"></a><div class="imagecaption">Foreground Img(alpha channel)</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/comp_result.jpg" target="_blank"><img class="markdeep" src="examples_files/comp_result.jpg" border="1"></a><div class="imagecaption">Result</div></div></center>
+
+<p></p><p>
+
+</p></td></tr><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/man.jpg" target="_blank"><img class="markdeep" src="examples_files/man.jpg" border="1"></a><div class="imagecaption">Background Img</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/doge.jpg" target="_blank"><img class="markdeep" src="examples_files/doge.jpg" border="1"></a><div class="imagecaption">Foreground Img</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/alpha.png" target="_blank"><img class="markdeep" src="examples_files/alpha.png" border="1"></a><div class="imagecaption">Foreground Img(alpha channel)</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/composite.png" target="_blank"><img class="markdeep" src="examples_files/composite.png" border="1"></a><div class="imagecaption">Result</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="morph">&nbsp;</a><a class="target" name="toc6.2">&nbsp;</a><h2>Morph</h2>
+<p>
+
+<code>morphFilter(initialImg, finalImg, lines, alpha) </code>
+Morph two images using [[Beier92]](<a href="http://www.hammerhead.com/thad/morph.html)" class="url">http://www.hammerhead.com/thad/morph.html)</a>. <code>initialImg</code> and <code>finalImg</code> are the before and after images, respectively. 
+<code>lines</code> are corresponding line segments to be aligned.
+<code>alpha</code> is the morph time: it can be a number between 0 and 1 indicating which point in the morph sequence should be returned, 
+or can be (start:step:end) to define a morph sequence. In terms of parameter choosing, we set p = 0.5, a = 0.01, and b = 2.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/morphBO_01.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_01.jpg" border="1"></a><div class="imagecaption">0</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_02.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_02.jpg" border="1"></a><div class="imagecaption">0.11</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_03.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_03.jpg" border="1"></a><div class="imagecaption">0.22</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_04.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_04.jpg" border="1"></a><div class="imagecaption">0.33</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_05.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_05.jpg" border="1"></a><div class="imagecaption">0.44</div></div></center>
+
+<p></p><p>
+
+</p></td></tr><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/morphBO_06.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_06.jpg" border="1"></a><div class="imagecaption">0.56</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_07.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_07.jpg" border="1"></a><div class="imagecaption">0.67</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_08.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_08.jpg" border="1"></a><div class="imagecaption">0.78</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_09.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_09.jpg" border="1"></a><div class="imagecaption">0.89</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/morphBO_10.jpg" target="_blank"><img class="markdeep" src="examples_files/morphBO_10.jpg" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p><p>
+
+Here is an animation of the sequence:
+
+</p><p>
+
+</p><center><a href="examples_files/morphBO.gif" target="_blank"><img class="markdeep" src="examples_files/morphBO.gif" border="1"></a></center>
+
+<p></p><p>
+
+And here is the morph for parameters <code>alpha=(0:0.1:1)</code> for
+the example images and morph lines provided with the assignment zip,
+together with a still frame at <code>alpha=0.5</code>:
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><a href="examples_files/morph-trump.gif" target="_blank"><img class="markdeep" src="examples_files/morph-trump.gif" border="1"></a></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><a href="examples_files/morph-trump.png" target="_blank"><img class="markdeep" src="examples_files/morph-trump.png" border="1"></a></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p>
+<a class="target" name="miscellaneous">&nbsp;</a><a class="target" name="toc7">&nbsp;</a><h1>Miscellaneous</h1>
+
+<a class="target" name="palette">&nbsp;</a><a class="target" name="toc7.1">&nbsp;</a><h2>Palette</h2>
+<p>
+
+<code>paletteFilter(image, colorNum)</code>
+extracts colorNum colors as a palette to represent colors in the image. 
+Here we use k-means method to extract color palette in the image with 
+grid acceleration.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/palette1.png" target="_blank"><img class="markdeep" src="examples_files/palette1.png" border="1"></a><div class="imagecaption">colorNum = 2</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/palette2.png" target="_blank"><img class="markdeep" src="examples_files/palette2.png" border="1"></a><div class="imagecaption">colorNum = 3</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/palette1.png" target="_blank"><img class="markdeep" src="examples_files/palette1.png" border="1"></a><div class="imagecaption">colorNum = 5</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+
+</p><p>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Go to Top</button>
+
+</p><p>
+
+</p>
+<a class="target" name="xdog">&nbsp;</a><a class="target" name="toc7.2">&nbsp;</a><h2>XDoG</h2>
+<p>
+
+<code>xDoGFilter(image, value)</code> Stylizes images into a pencil-drawing fashion
+using the eXtended Difference-of-Gaussians compendium described by
+<a href="https://www.cs.princeton.edu/courses/archive/spring19/cos426/papers/Winnemoeller12.pdf">Winnemoeller</a>. 
+You can use the approach of <a href="https://www.cs.princeton.edu/courses/archive/spring19/cos426/papers/Kang09.pdf">Kang</a>
+to make the flow field (instead of the one in the XDoG paper)
+because it is based on bilateral filter that you already implemented.
+
+</p><p>
+
+<table width="100%"><tbody><tr valign="top"><td>
+
+<p></p><p>
+
+</p><center><div class="image" style=""><a href="examples_files/xDoG_0.75.png" target="_blank"><img class="markdeep" src="examples_files/xDoG_0.png" width="480" border="1"></a><div class="imagecaption">0.75</div></div></center>
+
+<p></p><p>
+
+</p></td><td>
+
+<p></p><p>
+
+ </p><center><div class="image" style=""><a href="examples_files/xDoG_1.0.png" target="_blank"><img class="markdeep" src="examples_files/xDoG_1.png" width="480" border="1"></a><div class="imagecaption">1.0</div></div></center>
+
+<p></p><p>
+
+</p></td></tr></tbody></table>
+<script type="text/javascript">
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+</script>
+</p><p>
+</body></html>
